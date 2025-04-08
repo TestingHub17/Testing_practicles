@@ -3,7 +3,6 @@
 
 
 
-
 def decorator(func):
 
     def check_number(a, b):
