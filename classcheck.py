@@ -4,3 +4,7 @@ def check():
 
 def game():
     print("bhuuuuu")
+
+
+def newcheck():
+    print("paper")
