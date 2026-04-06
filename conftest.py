@@ -12,6 +12,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session")
 def driver(request):
+    print("check the driver is set")
     headless = request.config.getoption('--headless')
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--start-maximized")
